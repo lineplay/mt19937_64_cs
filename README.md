@@ -23,7 +23,7 @@ auto result = dis(gen);
 
 long seed = 123456;
 
-mt19937_64 gen;
+std.mt19937_64 gen;
 
 gen.init(seed);
 

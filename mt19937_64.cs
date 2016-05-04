@@ -8,8 +8,9 @@ namespace std
 	{
 		static readonly int nx = 312;
 		static readonly int mx = 156;
-		static ulong[] ax = new ulong[nx*2];
-		static int idx = nx;
+		
+		ulong[] ax = new ulong[nx*2];
+		int idx = nx;
 		
 		void _Refill_lower()
 		{   // compute values for the lower half of the history array

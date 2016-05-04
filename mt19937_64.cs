@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PFN
+namespace std
 {
-	class PFN
+	class mt19937_64
 	{
 		static readonly int nx = 312;
 		static readonly int mx = 156;

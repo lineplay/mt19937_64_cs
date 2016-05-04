@@ -27,4 +27,4 @@ std.mt19937_64 gen;
 
 gen.init(seed);
 
-long result = gen.next();
+long result = (gen.next() % 10000)+1;
